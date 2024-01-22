@@ -1,0 +1,11 @@
+[package]
+name = "snowflake"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = { version = "0.4.20", default-features = false }
+serde = { version = "1.0.193", default-features = false, features = ["derive"], optional = true}
+
+[features]
+derive = ["dep:serde"]
