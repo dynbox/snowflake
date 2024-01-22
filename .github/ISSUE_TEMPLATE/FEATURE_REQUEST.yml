@@ -1,0 +1,28 @@
+name: Feature request
+description: 💡 Suggest an idea
+labels: ['type: feature']
+
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: A concise description of your new idea.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Proposed solution
+      description: How your new idea would work in practice?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about your idea!
+
+        Tip: You can attach images or files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
